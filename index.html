@@ -24,6 +24,29 @@
             padding: 15px;
         }
         
+        #section1,
+        #section2 {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
+        
+        .leftcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
         nav {
             background-color: #AD896B;
             color: #194545;
@@ -41,19 +64,32 @@
             margin: 0 auto;
         }
         
-        #top {
-            background-color: #7F9797;
-            width: 48%;
+        .fullwidth {
+            width: 100%;
         }
         
-        #middle {
+        #section1 {
+            background-color: #7F9797;
+        }
+        
+        #secion2 {
             background-color: #D0B198;
-            width: 48%;
         }
         
         #bottom {
             text-align: center;
-            width: 48%;
+        }
+        
+        #social {
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        #copy {
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            bottom: 50px;
         }
     </style>
 </head>
@@ -71,16 +107,24 @@
                 <li><a href="index.html" target="_blank">Contact Us</a></li>
             </ul>
         </nav>
-        <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="river">
-        <section id="top">
-            <h1 class="heading">We run Rivers to relax.</h1>
-            <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-            <img src="http://brothert.net/dryoar/images/deso-boats.jpg" alt="kayaks on a river">
+        <img class="fullwidth" src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="river">
+        <section id="section1">
+            <div class="leftcol">
+                <h1 class="heading">We run Rivers to relax.</h1>
+                <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
+            </div>
+            <div class="rightcol">
+                <img src="http://brothert.net/dryoar/images/deso-boats.jpg" alt="kayaks on a river">
+            </div>
         </section>
-        <section id="middle">
-            <img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="boat hitting rapids">
-            <h1 class="heading">We run Whitewater for the Rush!</h1>
-            <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+        <section id="section2">
+            <div class="leftcol">
+                <img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="boat hitting rapids">
+            </div>
+            <div class="rightcol">
+                <h1 class="heading">We run Whitewater for the Rush!</h1>
+                <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+            </div>
         </section>
         <section id="bottom">
             <h1 class="heading">Book a trip today!</h1>
@@ -94,7 +138,7 @@
             <a href="https://www.instagram.com/?hl=en" target="_blank">
                 <img src="instagram.png" alt="instagram icon"></a>
         </footer>
-        <p>&copy; 2015 Dry Oar || Curtis Lewis </p>
+        <p id="copy">&copy; 2015 Dry Oar || Curtis Lewis </p>
     </div>
 </body>
 
