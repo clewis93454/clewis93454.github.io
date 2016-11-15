@@ -21,25 +21,6 @@ section {
     padding: 15px;
 }
 
-#section1,
-#section2 {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-.leftcol {
-    width: 48%;
-    flex: 1 0 15em;
-    margin: .5em;
-}
-
-.rightcol {
-    width: 48%;
-    flex: 1 0 15em;
-    margin: .5em;
-}
-
 img {
     max-width: 100%;
 }
@@ -56,13 +37,32 @@ nav {
     padding: bottom;
 }
 
-#content {
-    width: 960px;
-    margin: 0 auto;
+.leftcol {
+    width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
+
+.rightcol {
+    width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
 }
 
 .fullwidth {
     width: 100%;
+}
+
+#section1,
+#section2 {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
 }
 
 #section1 {
