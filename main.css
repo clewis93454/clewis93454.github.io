@@ -49,6 +49,8 @@ nav > ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    margin: 0px;
+    margin-left: -1.5em;
 }
 
 nav li {
@@ -92,7 +94,7 @@ nav li {
 }
 
 #logo {
-    background-color: #406868;
+    background-color: white;
     position: relative;
     display: inline-block;
 }
