@@ -97,6 +97,7 @@ nav li {
     background-color: white;
     position: relative;
     display: inline-block;
+    padding-top: 1em;
 }
 
 #section1 {
