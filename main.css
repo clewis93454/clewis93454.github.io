@@ -50,12 +50,12 @@ nav > ul {
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 0px;
-    margin-left: -1.5em;
+    margin-left: 6em;
     flex-direction: row;
 }
 
 nav li {
-    flex: 1 1 8em;
+    flex: 1 1 6em;
 }
 
 .heading {
@@ -92,6 +92,12 @@ nav li {
 
 #content {
     width: 80%;
+    max-width 960px;
+    margin: 0 auto;
+}
+
+#blogContent {
+    width: 80%;
     max-width: 960px;
     margin: 0 auto;
 }
@@ -102,6 +108,7 @@ nav li {
     display: inline-block;
     padding-top: 1em;
     flex-direction: row;
+    margin-left: 1.5em;
 }
 
 #section1 {
@@ -114,6 +121,10 @@ nav li {
 
 #bottom {
     text-align: center;
+    background-color: #7F9797;
+}
+
+#blog {
     background-color: #7F9797;
 }
 
