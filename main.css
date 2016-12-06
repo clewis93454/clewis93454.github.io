@@ -84,7 +84,8 @@ nav li {
 }
 
 #section1,
-#section2 {
+#section2,
+#section3 {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -126,6 +127,10 @@ nav li {
 
 #section2 {
     background-color: #D0B198;
+}
+
+#section3 {
+    background-color: #7F9797;
 }
 
 #bottom {
