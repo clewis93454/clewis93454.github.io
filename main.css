@@ -130,7 +130,7 @@ nav li {
 }
 
 #section3 {
-    background-color: #7F9797;
+    background-color: #FBE6D4;
 }
 
 #bottom {
@@ -140,6 +140,11 @@ nav li {
 
 #blog {
     background-color: #7F9797;
+}
+
+#rivers{
+     background-color: #7F9797;
+    padding: 0;
 }
 
 #social {
