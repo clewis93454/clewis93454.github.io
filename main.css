@@ -140,10 +140,11 @@ nav li {
 
 #blog {
     background-color: #7F9797;
+    padding: 0;
 }
 
-#rivers{
-     background-color: #7F9797;
+#rivers {
+    background-color: #7F9797;
     padding: 0;
 }
 
